@@ -1,0 +1,45 @@
+
+
+<html>
+<head>
+<title> Go for It! </title>
+</head>
+
+<html>
+<head>
+<title> Go for It! </title>
+<style>
+body{
+background-color:#F0F8FF;
+margin-left:150px;
+}
+</style>
+</head>
+
+<body>
+<h1> Let's get in Touch </h1>
+<div id="final"> </div>
+<p id="address" > Email : </p>
+<form action="post" >
+<input type="text" name="email" class="yo" placeholder="Enter your email address" > 
+<p id="subject"> Subject : </p>
+<input type="text" name="sub" class="yo" placeholder="Enter the subject of your interest"> 
+<p id="stuff"> What would you like to ask us? </p>
+<input type="text" name="ques" id="big" placeholder="Share your thoughts with us!"> <br><br> <br>
+<input type="submit" id="submit">
+</form>
+</body>
+</html>
+
+ <?php
+  $error = ""; $successMessage = "";
+
+$emailTo=$_POST["email"];
+$subject = $_POST['sub'];
+$body="This is regarding your query on ".$_POST["ques"].". We would like to provide you with more information. Please stay tuned for further updates" ;
+$headers="From:malavikamenon2000@gmail.com";
+if(mail($emailTo,$subject,$body,$headers))
+ echo "The email has been sent succesfully";
+
+
+?> 
