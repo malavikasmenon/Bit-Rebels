@@ -1,0 +1,59 @@
+
+<!Doctype html public>
+
+ 
+<body >
+  
+<div class="beg">
+  
+    </div>
+  
+<table border="1" cellpadding="10">
+
+<td>
+  <h1>Counselor Login</h1>  
+<form action="createProfile.php" method = "post"> 
+
+
+
+
+
+Username: <br /> <input type="text" name="username" /> <br />
+
+
+Password: <br> <input type="password" name="rpwd" /> <br />
+<br />
+  <form action="">
+   <button style="height:30px;width:80px" input type="submit">Submit</button>
+  </form>
+</form>
+
+ </td>
+</table>
+ 
+</body>
+</img>
+<style>
+  
+body{
+ 
+  background-image: url("https://www.irishexaminer.com/remote/media.central.ie/media/images/c/collegestudentsinuniversitydoingexamUniversityLectureHallClassroomGeneric_large.jpg?width=648&s=ie-891923") ;
+
+  
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color:white;
+  
+}
+
+
+table{
+  background-color: rgba(0, 0, 0, 0.28);
+  margin:150px 100px 10px 550px;
+  padding:20px 50px ;
+  font-family:helvetica;
+  font-size:20px; 
+  bottom:10px;
+}
+</style>
+</html>
