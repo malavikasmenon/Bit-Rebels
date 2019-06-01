@@ -23,9 +23,9 @@ Username: <br /> <input type="text" name="username" /> <br />
 
 
 <br />
-Create a Password: <br> <input type="text" name="pwd" /> <br />
+Create a Password: <br> <input type="password" name="pwd" /> <br />
 <br />
-Re-enter Password: <br> <input type="text" name="rpwd" /> <br />
+Re-enter Password: <br> <input type="password" name="rpwd" /> <br />
 <br />
 Gender: 
   
@@ -58,7 +58,10 @@ Field of Interest: <br />
 
 
 <br />
-<input type="submit" />
+<form action="">
+   <button style="height:30px;width:80px" input type="submit">Submit</button>
+  </form>
+
 </form>
 
 
@@ -92,7 +95,7 @@ table{
    background-color: rgba(0, 0, 0, 0.28);
   margin:10px 100px 10px 500px;
   padding:20px 50px ;
-  font-family:monospace;
+  font-family:helvetica;
   font-size:20px; 
 }
 </style>
