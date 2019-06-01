@@ -1,0 +1,99 @@
+
+<!Doctype html public>
+
+ 
+<body >
+  
+<div class="beg">
+  <p>Please fill out the following form:</p>
+    </div>
+  
+<table border="1" cellpadding="10">
+
+<td>
+<h1> Enter your details </h1>
+<form action="createProfile.php" method = "post"> 
+
+
+
+Name :<br /> <input type="text" name="firstname" /><br />
+<br />
+
+Username: <br /> <input type="text" name="username" /> <br />
+
+
+<br />
+Create a Password: <br> <input type="text" name="pwd" /> <br />
+<br />
+Re-enter Password: <br> <input type="text" name="rpwd" /> <br />
+<br />
+Gender: 
+  
+  <br />
+<select>
+  <option name="gender" value="Female" >Female</option><br />
+  <option name="gender" value="Male">Male</option><br />
+  <option name="gender" value="Other">Other</option><br />
+</select>
+ <br />
+
+
+
+<br />
+
+Age: <br /> <input type="text" name="age" /> <br />
+<br />
+Stream: <br />
+
+<select>
+  <option name="stream" value="PCB" >PCB</option>
+ <br />
+<option name="stream" value="PCM" >PCM</option> <br />
+  <option name="stream" value="Humanities" >Humanities</option> <br /></select>
+ <br />
+<br />
+Field of Interest: <br />
+<input type="text" name="interest">
+  <br />
+
+
+<br />
+<input type="submit" />
+</form>
+
+</form>
+ </td>
+</table>
+ 
+</body>
+</img>
+<style>
+  
+body{
+ 
+  background-image: url("https://www.irishexaminer.com/remote/media.central.ie/media/images/c/collegestudentsinuniversitydoingexamUniversityLectureHallClassroomGeneric_large.jpg?width=648&s=ie-891923") ;
+
+  
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color:white;
+  
+}
+p{
+  background-color: rgba(0, 0, 0, 0.28);
+  margin:40px;
+  padding:20px 10px 10px 440px;
+  font-family:helvetica;
+  font-size:40px; 
+}
+
+
+table{
+   background-color: rgba(0, 0, 0, 0.28);
+  margin:10px 100px 10px 500px;
+  padding:20px 50px ;
+  font-family:monospace;
+  font-size:20px; 
+}
+</style>
+</html>
