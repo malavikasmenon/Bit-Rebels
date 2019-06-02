@@ -1,6 +1,6 @@
 <?php>
-$name=$_POST['firstname'];
-$uname=$_POST['username'];
+$name=$_GET['firstname'];
+$uname=$_GET['username'];
 echo $name;
 echo $uname;
 
